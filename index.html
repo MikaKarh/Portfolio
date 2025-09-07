@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Adventure Game</title>
+  <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+  <div id="game-container">
+    <h1>Adventure Game</h1>
+    <div id="game-content">
+      <div id="display-area">
+        <p id="inventory-display"></p>
+        <p id="health-display"></p>
+
+        <canvas id="background-canvas"></canvas>
+
+        <div id="portrait-area">
+          <div class="portrait-slot"><canvas id="portrait-left"></canvas></div>
+          <div class="portrait-slot"><canvas id="portrait-middle"></canvas></div>
+          <div class="portrait-slot"><canvas id="portrait-right"></canvas></div>
+        </div>
+
+        <p id="story-text"></p>
+      </div>
+      <div id="options"></div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
